@@ -5,12 +5,13 @@
 body {
     background-image: url(images/sunset-815270_1280.jpg);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: white;
+    color: rgb(179, 179, 179);
     margin: 0;
     border: 0;
     padding: 0;
     background-repeat: no-repeat;
-    background-position: bottom 0 left -45vw;
+    background-position-x: center;
+    background-position-y: top calc(-21vh - 18vw);
     background-size: calc(100vh + 90vw);
 }
 
@@ -23,11 +24,34 @@ body {
 }
 
 h1 {
-    padding: 35vh 10vw 0;
+    padding: 50vh 10vw 0;
     font-size: xxx-large;
 }
 
 p {
-    padding: 0 10vh 0;
+    padding: 0 10vw 0;
     font-size: x-large;
+}
+
+#noimage {
+    background-image: none;
+    padding: 3em;
+}
+
+#tdball {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+    background: radial-gradient(#fff, rgb(116, 116, 116));
+}
+
+a:visited {
+    color: pink;
+}
+
+.gradStop {
+    margin-top: 2em;
+    font-size: x-large;
+    background-image: repeating-linear-gradient(45deg, #800080 0%, #800080 30%, #ffe4e1 30%, 
+    #ffe4e1 35%, #800080 35%, #800080 40%, #ffe4e1 40%, #ffe4e1 101%);
 }
